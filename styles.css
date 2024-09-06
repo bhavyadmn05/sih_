@@ -1,0 +1,173 @@
+body{
+    padding:0%;
+    margin:0%;
+    background-color: #ffc1c4ea;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_body{
+    width: 800px;
+    height: 500px;
+    margin-top:40px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    margin-bottom:40px;
+}
+.main_content{
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    margin-top: 27px;
+   display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+.edu{
+    color:#ff6b81e0;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav_text{
+    font-family: sans-serif;
+    transition-timing-function: ease-in;
+    transition-duration: .1s;
+}
+.nav_button{
+    background-color: #fe8496;
+    border-radius: 3px;
+    border:none;
+    color: white;
+    transition-timing-function:ease-in;
+    transition-duration: 0.1 s;
+}
+.desc2{
+    display:flex;
+    flex-direction:column;
+     margin-top:120px;
+     margin-left:45px;
+     width:60%;
+    gap:4px;
+}
+.C1{
+    color:#8419bd;
+     font-family:'Franklin Gothic Medium';
+     font-size:30px;
+}
+.C2{
+    color:#16325B;
+    font-family:'Franklin Gothic Medium';
+     font-size:30px;
+}
+.C3{
+    color:#ff6b81e0;
+    font-family:'Franklin Gothic Medium';
+     font-size:30px;
+}
+/* .search_mentor{
+    width: 100%;
+    background-color: white;
+} */
+ .color_boxes{
+    display: flex;
+    justify-content:space-evenly;
+
+ }
+#box1{
+    margin-top: 200px;
+    background-color: #fe8496;
+    border-radius: 5px;
+    width: 150px;
+    height: 170px;
+    margin-right: 10px;
+}
+#box2{
+    margin-top: 100px;
+    background-color: #e02c47e1;
+    border-radius: 5px;
+    width: 150px;
+    height: 170px;
+    margin-right:20px;
+}
+input{
+    margin-top:75px;
+    width:300px;
+    height:25px;
+    border:none;
+    border-radius: 5px;
+}
+PREV button{
+    background-color:#fe8496;
+    color:#ffffff;
+    height:27px;
+    border-radius: 5px;
+    border:none;
+}
+.nav_text:hover{
+    font-size:20px;
+    color:#835a9a;
+}
+.nav_button:active{
+  height:30px;
+  width:50px;
+  animation-name: animation1;
+  animation-duration: 0.1s;
+}
+
+/* .Login_box{
+    background-color: #e8e8e8;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    animation-name: animation2;
+    animation-duration: 0.2s;
+    
+     
+}
+.log_in{
+    width: auto;
+    border-bottom: 2px solid rgb(254, 108, 108);
+    
+}
+.login_input{
+    width: 80%;
+    height: 30px;
+    margin-left:40px;
+}
+.login_button{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    background-color: #fd4a65;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left:150px;
+}*/
+
+button:hover{
+    background-color: white;
+    color: #fd4a65;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fd4a65;
+} 
+/* @keyframes animation2{
+    from{
+       transform: translateY(0); 
+    }
+    to{
+        transform: translateY(-100); 
+    }
+} */
